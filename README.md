@@ -1,6 +1,6 @@
-#DJ CRM - A Lead & Agent Management System#
+# DJ CRM - A Lead & Agent Management System
 
-Overview
+## Overview
 DJ CRM is a powerful customer relationship management (CRM) system designed for managing leads and agents efficiently. Built with a robust authentication system, it ensures that users only see relevant data based on their organization and role.
 
 Key Features
