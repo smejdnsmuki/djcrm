@@ -1,0 +1,21 @@
+-Search for Django packages in Google and type 'forms' to find some styling for forms.
+
+-For environment variables use Django Environ - we can modify the standard variables (lie DEBUG, SECRETE_KEY,...)
+instead of going into settings.py (the .env map is connected with settings.py). We also make a copy of .env file
+as .template.env so that when we upload to github repository, the variables are seen without
+values as the .env will not be shown in repository.
+
+-Before every 'py manage.py runserver' we run :
+$env:READ_DOT_ENV_FILE="True"
+$env:SECRET_KEY="your-secret-key"
+$env:DEBUG="True"
+
+-Creating Database:
+1. createdb -U postgres djcrm (make sure pgAdmin is opened)
+2. change database in settings.py
+3. make variables in .env
+4. psql -U postgres
+5. CREATE USER djcrmuser WITH PASSWORD '_ _ _ _ _ _ _ _ _ _ _ _';
+6. \q (quit)
+
+-We use Whitenoise for hosting static files.
