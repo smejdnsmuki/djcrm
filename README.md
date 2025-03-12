@@ -10,3 +10,10 @@ DJ CRM is a powerful customer relationship management (CRM) system designed for 
 ✅ CRUD Operations – Easily create, read, update, and delete leads and agents.  
 ✅ Authentication System – Includes registration, login, logout, and password reset.  
 ✅ User-Friendly Dashboard – A clean and intuitive interface for managing leads efficiently.  
+
+### Tech Stack
+🔹 Backend: Django (Python)  
+🔹 Frontend: (Django Templates)  
+🔹 Database: PostgreSQL 
+🔹 Authentication: Django’s built-in auth system with password reset  
+
